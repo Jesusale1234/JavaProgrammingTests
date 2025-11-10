@@ -1,0 +1,23 @@
+{
+  "name": "javaprogrammingtests",
+  "version": "1.0.0",
+  "description": "This repository contains the **unit tests** for the *Reservations Module* of **BookingMx**, a hotel management web platform of the seventh challenge related to Java and JavaScript programming procedures.\r The tests were implemented in **Java (17)** using **JUnit 5** and **JaCoCo** to ensure high code quality and maintain a minimum of **90% test coverage**.\r > This sprint applies lessons learned from a failed production release due to missing tests and documentation, reinforcing the importance of both for future developments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesusale1234/JavaProgrammingTests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesusale1234/JavaProgrammingTests/issues"
+  },
+  "homepage": "https://github.com/Jesusale1234/JavaProgrammingTests#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
