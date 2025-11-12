@@ -163,6 +163,38 @@ coverage/lcov-report/index.html
 
 ---
 
+## 📚 Code Documentation and Comments
+Both modules follow standardized documentation practices:
+
+| Standard                   | Language | Description |
+|--------------------------|--------|---------------|
+| Javadoc  | **Java (Module 1)** | Documented methods and exceptions for ReservationService and ReservationException. |
+| JSDoc | **JavaScript (Module 2)** | Documented all major functions in graph.js (addCity, addConnection, getNearbyCities, suggestAlternatives). |
+
+Example – Javadoc (Java)
+```
+/**
+ * Cancels an existing reservation.
+ * @param id reservation ID
+ * @return true if the operation was successful
+ * @throws ReservationException if the reservation does not exist
+ */
+public boolean cancelReservation(int id) throws ReservationException { ... }
+```
+
+Example – JSDoc (JavaScript)
+```
+/**
+ * Suggests alternative destinations within a given maximum distance.
+ * @param {string} city - The city name to start from.
+ * @param {number} maxDistance - The maximum distance in kilometers.
+ * @returns {string[]} List of nearby city names within the limit.
+ * @throws {Error} If the city is not found.
+ */
+suggestAlternatives(city, maxDistance) { ... }
+```
+---
+
 ## 🧱 Lessons Learned
 
 - Testing in both Java and JavaScript environments reinforces QA skills.
@@ -180,6 +212,7 @@ coverage/lcov-report/index.html
 | Jesús Martínez  | Contributor – Reservations Module, JavaScript Module, & Unit Tests |
 
 ---
+
 
 ## 📚 License
 
